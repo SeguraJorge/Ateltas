@@ -43,7 +43,7 @@ int registrar(){
         cout<<"-->";
         cin>>cab->tiempo3;
         
-      cab->promedio=cab->tiempo+cab->tiempo2+cab->tiempo3/3;
+      cab->promedio=((cab->tiempo+cab->tiempo2+cab->tiempo3)/3);
        
         cab->sig = NULL;
     }
@@ -68,7 +68,7 @@ int registrar(){
             cout<<"-->";
             cin>>aux->tiempo3;
 
-            aux->promedio=aux->tiempo+aux->tiempo2+aux->tiempo3/3;
+            aux->promedio=((aux->tiempo+aux->tiempo2+aux->tiempo3)/3);
             
             aux->sig=NULL;
             aux2=cab; 
